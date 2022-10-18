@@ -4,7 +4,7 @@
 **.NET 6.0 or newer required**
 
 ## What is this?
-* This is an app I created to track in-store availability of Apple products on a minute-per-minute basis.
+* This is an app I created to track in-store availability of Apple products on a minute-per-minute basis. You may need this if, like me, you are in need of a new laptop but can't find one anywhere!
 * It is fully configurable to allow you to specify which products, the model, the area you want to check store availability for, etc.
 * With a modular notification system, you can get notifications however you like! Read on for more information.
 
