@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31912.275
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AppleStockChecker", "AppleStockChecker\AppleStockChecker.csproj", "{BF022647-4587-4C1F-9861-86C56822BAC8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{A9683B6E-35F1-45AB-8543-F6DC18641F60}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TwilioNotify", "NotifyModules\Twilio\TwilioNotify.csproj", "{3D051A1C-AAA4-4700-AD83-CCA91E6EF6B8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BF022647-4587-4C1F-9861-86C56822BAC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF022647-4587-4C1F-9861-86C56822BAC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF022647-4587-4C1F-9861-86C56822BAC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF022647-4587-4C1F-9861-86C56822BAC8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D051A1C-AAA4-4700-AD83-CCA91E6EF6B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D051A1C-AAA4-4700-AD83-CCA91E6EF6B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D051A1C-AAA4-4700-AD83-CCA91E6EF6B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D051A1C-AAA4-4700-AD83-CCA91E6EF6B8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {11D2E809-7E6E-47EE-9A5E-C67B8A28FA79}
+	EndGlobalSection
+EndGlobal
