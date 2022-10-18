@@ -19,12 +19,12 @@ All you need to do is implement the the stock checker's `INotifyInterface`. See 
 ## Running
 After compiling the project, you can use `dotnet run` in the executable directory to run the stock checker.
 Note that any notify modules you want to use must be in the same directory. By default, TwilioNotify is built in the stock checker's 'bin' directory already.
-On the first run, you will be asked to complete the configuration. An example configuration can be found below:
+On the first run, you will be asked to complete the configuration. An example configuration can be found below.
 
 ## Configuring
 A `config.json` file must be in the same directory as the executable. A blank `config.json` will be created on the first run, if it doesn't exist already.
 
-Here is an example `config.json`:
+Here is an example `config.json` that checks stock for iPhone 14 models:
 ```
 {
     "headers": {
